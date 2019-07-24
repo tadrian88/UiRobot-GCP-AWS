@@ -1,7 +1,7 @@
 # UiRobot-GCP-Terraform
  UiPath Robot GCP deployment via Terraform.
 
- [![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/hteo1337/UiRobot-GCP-Terraform&working_dir=/&page=shell&tutorial=README.md)
+ [![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/hteo1337/UiRobot-GCP-Terraform&working_dir=UiRobot-GCP-Terraform&page=shell&tutorial=README.md)
 
 ## Installing Terraform
 Please check : https://learn.hashicorp.com/terraform/getting-started/install.html
