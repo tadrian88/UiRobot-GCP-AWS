@@ -1,5 +1,12 @@
 # UiRobot-GCP-Terraform
  UiPath Robot GCP deployment via Terraform.
+
+ [![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/hteo1337/UiRobot-GCP-Terraform&working_dir=/&page=shell&tutorial=README.md)
+
+## Installing Terraform
+Please check : https://learn.hashicorp.com/terraform/getting-started/install.html
+
+
  
 ## Inputs
 
@@ -8,7 +15,7 @@
 | region | Region | string | `"us-west1"` | yes |
 | az | Availability Zone | string | `"us-west1-a"` | yes |
 | image | GCP instances image | string | `"windows-server-2016-dc-v20190620"` | yes |
-| vm\_type |  | string | `"n1-standard-4"` | yes |
+| vm\_type | Machine type : CPU and RAM size. See https://cloud.google.com/compute/docs/machine-types | string | `"n1-standard-4"` | yes |
 | instance\_count | Number of robots to be created. | string | `"2"` | yes |
 | disk\_size | Disk size for each VM. | string | `"50"` | yes |
 | app\_name | Base VM name. | string | `"uirobot"` | yes |
@@ -28,4 +35,17 @@
 | Name | Description |
 |------|-------------|
 | public\_ip | Output variable: Public IP address |
+
+
+
+
+
+https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/GoogleCloudPlatform/terraform-google-lb-http&working_dir=examples/https-gke&page=shell&tutorial=README.md
+
+
+https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/GoogleCloudPlatform/terraform-google-lb-http&working_dir=examples/https-gke&page=shell&tutorial=README.md
+
+
+
+
 
