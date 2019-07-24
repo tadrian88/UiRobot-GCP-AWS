@@ -2,9 +2,24 @@
  UiPath Robot GCP deployment via Terraform.
 
  [![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/hteo1337/UiRobot-GCP-Terraform&tutorial=README.md)
+ !! If you deploy the solution from the above button, then delete ``` credentials = "${file("terraform-245706-bba73b77aff6.json")}" ``` from ```main.tf``` and complete ```variables.tf```. !!
+
+ ## First steps:
+1. Install terraform v0.12.3 (check Installing Terraform).
+2. Complete the variables.tf file (see Inputs below). Complete the variables.tf file (see Inputs below). For Robots hardware requirements and GCP VM types check : https://robot.uipath.com/docs/hardware-requirements and https://cloud.google.com/compute/docs/machine-types.
+3. Change directory to path of the Orchestrator plan (cd C:\path\to\orchestrator\plan).
+4. Run : ` terraform init `
+5. Run : ` terraform plan `
+6. Check the plan of the resources to be deployed and type ` yes ` if you agree with the plan.
+7. Wait 5-10 mins per GCP instance and enjoy!
+
 
 ## Installing Terraform
 Please check : https://learn.hashicorp.com/terraform/getting-started/install.html
+
+## Terraform version
+Terraform v0.12.3
+
 
 
  
