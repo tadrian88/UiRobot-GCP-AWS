@@ -40,9 +40,9 @@ variable "set_local_adminpass" {
 variable "admin_password" {
   description = "Local windows administrator password. If variable 'set_local_adminpass' is 'yes'."
   default     = "Local@dminP@55!*"
-
+}
 ## Set Robot local account role : localadmin or localuser
-}variable "robot_local_account_role" {
+variable "robot_local_account_role" {
   description = "Robot local accout role : localadmin or localuser"
   default = "localadmin" 
 }
@@ -87,7 +87,5 @@ variable "robot_type" {
   # "Attended",
   # "Nonproduction",
   # "Development"
-
   default = "Unattended"
-
 }
