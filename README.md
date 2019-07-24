@@ -1,7 +1,7 @@
 # UiRobot-GCP-Terraform
  UiPath Robot GCP deployment via Terraform.
 
- [![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/hteo1337/UiRobot-GCP-Terraform&tutorial=README.md)
+ [![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/hteo1337/UiRobot-GCP-Terraform&tutorial=README.md) </br> </br>
  !! If you deploy the solution from the above button, then delete ``` credentials = "${file("terraform-245706-bba73b77aff6.json")}" ``` from ```main.tf``` and complete ```variables.tf```. !!
 
  ## First steps:
@@ -21,8 +21,6 @@ Please check : https://learn.hashicorp.com/terraform/getting-started/install.htm
 Terraform v0.12.3
 
 
-
- 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
