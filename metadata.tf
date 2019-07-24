@@ -50,5 +50,5 @@ EOF
 ### Delete default metadata after VM provisioning
 resource "google_compute_project_metadata" "default"  {
     depends_on = ["google_compute_instance.uipath"]
-    windows-startup-script-ps1  = " "
+    windows-startup-script-ps1  = "null"
 }
